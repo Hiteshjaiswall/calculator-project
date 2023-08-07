@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+}
+
+#screen {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  overflow: hidden;
+  width: 90%;
+  height: 80px;
+  margin-left: 15px;
+  margin-top: 12px;
+  text-align: right;
+  padding-top: 10px;
+  font-size: 30px;
+}
+#app {
+  background-color: grey;
+  width: 300px;
+  height: 400px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#button {
+  margin: 0 10px;
+  /* margin-top: -120px; */
+}
+.btn {
+  text-align: center;
+  border: none;
+  padding: 15px 20px;
+  margin: 3px;
+  width: 60px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.btn:hover {
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.active {
+  background-color: tomato;
+}
+.zero {
+  width: 133px;
+  margin: 2px;
+}
